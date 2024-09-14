@@ -1,0 +1,12 @@
+{
+    "name": "my-project",
+    "version": "1.0.0",
+    "description": "Um projeto simples de front-end com Docker e Node.js",
+    "scripts": {
+      "start": "http-server -p 8080"
+    },
+    "dependencies": {
+      "http-server": "^14.1.1"
+    }
+  }
+  
