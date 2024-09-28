@@ -1,5 +1,3 @@
-Claro! Aqui está uma versão atualizada do README, incluindo instruções para criar um container Docker a partir do arquivo Dockerfile:
-
 ---
 
 # Lista de Tarefas
