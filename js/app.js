@@ -28,7 +28,7 @@ function editTask(index) {
     titleInput.value = task.title;
     dateInput.value = task.date;
     currentTaskIndex = index;
-    submitButton.value = "Atualizar Tarefa" 
+    submitButton.textContent = "Atualizar Tarefa" 
 }
 // Função para deletar tarefa
 function deleteTask(index) {
