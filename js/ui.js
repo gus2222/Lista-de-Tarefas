@@ -13,6 +13,7 @@ export function renderTasks(tasks, onEdit, onDelete, onToggleCompleted){
         taskElement.innerHTML= `
             <span>${task.title} ${task.date ? `(${task.date})` : ''}</span>
             <div>
+                <label>Concluir</label>
                 <input type="checkbox" ${task.completed ? 'checked' : ''} data-index="${index}" class="toggle-completed">
                 <button class="edit" data-index="${index}">Editar</button>
                 <button class="delete" data-index="${index}">Deletar</button>

@@ -8,6 +8,7 @@ const newTaskForm = document.getElementById('new-task-form');
 const showAllButton = document.getElementById('show-all');
 const showCompletedButton = document.getElementById('show-completed');
 const showPendingButton = document.getElementById('show-pending');
+const submitButton = document.getElementById("submit");
 
 // Função para adicionar tarefa
 function addTask(e) {
@@ -27,6 +28,7 @@ function editTask(index) {
     titleInput.value = task.title;
     dateInput.value = task.date;
     currentTaskIndex = index;
+    submitButton.value = "Atualizar Tarefa" 
 }
 // Função para deletar tarefa
 function deleteTask(index) {
